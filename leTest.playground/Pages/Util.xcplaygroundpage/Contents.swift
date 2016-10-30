@@ -13,7 +13,7 @@ public extension String {
     
 }
 
-public let someConstString = "YOLO"
+public let someConstString = "YOLO!!!"
 
 func yolo() {
     print("asdfasd")
