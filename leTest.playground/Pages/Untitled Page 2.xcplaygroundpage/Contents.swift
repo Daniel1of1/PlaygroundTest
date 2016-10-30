@@ -1,7 +1,21 @@
-//: [Previous](@previous)
+import class Foundation.NSCharacterSet
 
-import Foundation
+public extension String {
 
-var str = "Hello, playground"
+    var isEmptyOrWhitespace: Bool {
+        return characters.isEmpty ? true : trimmingCharacters(in: NSCharacterSet.whitespaces) == ""
+    }
 
-//: [Next](@next)
+
+    var isNotEmptyOrWhitespace: Bool {
+        return !isEmptyOrWhitespace
+    }
+    
+}
+
+public let someConstString = "YOLO"
+
+func yolo() {
+    print("asdfasd")
+}
+yolo()
