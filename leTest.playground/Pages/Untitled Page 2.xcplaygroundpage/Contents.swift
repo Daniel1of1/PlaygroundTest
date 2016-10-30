@@ -18,4 +18,3 @@ public let someConstString = "YOLO"
 func yolo() {
     print("asdfasd")
 }
-yolo()
